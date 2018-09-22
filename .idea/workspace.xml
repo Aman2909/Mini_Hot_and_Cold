@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="314561f8-9e13-4a65-89d5-4dea882897b2" name="Default" comment="" />
+    <list default="true" id="314561f8-9e13-4a65-89d5-4dea882897b2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/DATABASE_TESTING/CREATE DB.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATABASE_TESTING/CREATE DB.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,9 +13,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CREATE DB.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/CREATE DB.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="CREATE TABLES.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/CREATE TABLES.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="INSERT INTO.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/INSERT INTO.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SELECT.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/SELECT.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ACCESS TABLE.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/ACCESS TABLE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/mysql/connector/connection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="493" selection-start-line="493" selection-end-line="493" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -25,20 +67,32 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Guess.py" />
         <option value="$PROJECT_DIR$/Hot-Coldv2.py" />
+        <option value="$PROJECT_DIR$/Guess.py" />
         <option value="$PROJECT_DIR$/DATABASE_TESTING/CREATE DB.py" />
+        <option value="$PROJECT_DIR$/DATABASE_TESTING/ACCESS DB.py" />
+        <option value="$PROJECT_DIR$/DATABASE_TESTING/ACCESS TABLE.py" />
+        <option value="$PROJECT_DIR$/DATABASE_TESTING/CREATE TABLES.py" />
+        <option value="$PROJECT_DIR$/DATABASE_TESTING/Insert Into.py" />
+        <option value="$PROJECT_DIR$/DATABASE_TESTING/INSERT INTO.py" />
+        <option value="$PROJECT_DIR$/DATABASE_TESTING/SELECT.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -49,12 +103,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="GuessTheNumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GuessTheNumber" type="462c0819:PsiDirectoryNode" />
+              <item name="Mini_Hot_and_Cold" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mini_Hot_and_Cold" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GuessTheNumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GuessTheNumber" type="462c0819:PsiDirectoryNode" />
+              <item name="Mini_Hot_and_Cold" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mini_Hot_and_Cold" type="462c0819:PsiDirectoryNode" />
               <item name="DATABASE_TESTING" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -87,26 +141,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Hot-Coldv2">
-    <configuration name="Guess" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GuessTheNumber" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Pathak\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Guess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Hot-Coldv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SELECT">
+    <configuration name="ACCESS DB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GuessTheNumber" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,24 +150,102 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DATABASE_TESTING" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hot-Coldv2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DATABASE_TESTING/ACCESS DB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ACCESS TABLE" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GuessTheNumber" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DATABASE_TESTING" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DATABASE_TESTING/ACCESS TABLE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="CREATE TABLES" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GuessTheNumber" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DATABASE_TESTING" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Coding\Projects\Mini_Hot_and_Cold\DATABASE_TESTING\CREATE TABLES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="INSERT INTO" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GuessTheNumber" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DATABASE_TESTING" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DATABASE_TESTING/INSERT INTO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="SELECT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GuessTheNumber" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DATABASE_TESTING" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DATABASE_TESTING/SELECT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Guess" />
-      <item itemvalue="Python.Hot-Coldv2" />
+      <item itemvalue="Python.ACCESS DB" />
+      <item itemvalue="Python.CREATE TABLES" />
+      <item itemvalue="Python.ACCESS TABLE" />
+      <item itemvalue="Python.INSERT INTO" />
+      <item itemvalue="Python.SELECT" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Hot-Coldv2" />
-        <item itemvalue="Python.Guess" />
+        <item itemvalue="Python.SELECT" />
+        <item itemvalue="Python.INSERT INTO" />
+        <item itemvalue="Python.ACCESS TABLE" />
+        <item itemvalue="Python.CREATE TABLES" />
+        <item itemvalue="Python.ACCESS DB" />
       </list>
     </recent_temporary>
   </component>
@@ -152,12 +266,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22098215" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="right" id="Run" order="3" weight="0.36913767" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.36764705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -266,13 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Guess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="21" selection-end-line="81" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4360">
@@ -283,12 +390,65 @@
     <entry file="file://$PROJECT_DIR$/Hot-Coldv2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
-          <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/ACCESS DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/CREATE DB.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/CREATE TABLES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/mysql/connector/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="493" selection-start-line="493" selection-end-line="493" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/INSERT INTO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/ACCESS TABLE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATABASE_TESTING/SELECT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
