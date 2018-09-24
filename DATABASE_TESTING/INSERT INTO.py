@@ -16,11 +16,9 @@ sql = "INSERT INTO customers (name,address) VALUES(%s,%s)"
 
 value = [
     ("Aman","Manushree"),
-    ("XYZ","hjk"),
-    ("Aman","Manushree"),
-    ("XYZ","hjk"),
-    ("Aman","Manushree"),
-    ("XYZ","hjk")
+    ("Megha","BLR"),
+    ("Tanuja","Ujjain"),
+    ("Papa","Ratlam")
 ]
 
 mycursor.executemany(sql,value)
@@ -35,9 +33,3 @@ myresult=mycursor.fetchall()
 for x in myresult:
     print(x)
 
-
-mycursor.execute("SELECT* FROM customers")
-myresult=mycursor.fetchall()
-
-for x in myresult:
-    print(x)
